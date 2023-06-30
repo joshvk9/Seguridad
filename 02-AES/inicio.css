@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('imagenes/kirklai-6Ptwy-nDnoE-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 4000px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.342);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+div {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #301f7e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 20px;
+  border: 1px solid #ffffff;
+  padding: 10px;
+}

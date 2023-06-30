@@ -1,0 +1,72 @@
+body {
+  background-image: url("/image/return-of-cipher-gravity-falls-xyrgq38bbta4axmk.jpg");
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form {
+  margin-top: 50px;
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5c5c5c;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2a572a;
+}
+
+.resultados {
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(85, 85, 85, 0.5);
+}
+
+p {
+  font-size: 20px;
+  color: #ffffff;
+}

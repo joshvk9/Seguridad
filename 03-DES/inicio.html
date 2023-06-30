@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cifrador de mensajes</title>
+    <link rel="stylesheet" href="inicio.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</head>
+<body>
+    <h1>Cifrador de mensajes</h1>
+
+    <label for="archivo">Selecciona un archivo:</label>
+    <input type="file" id="archivo" accept=".txt">
+
+    <label for="clave">Clave (8 caracteres):</label>
+    <input type="text" id="clave" maxlength="8">
+
+    <button onclick="cifrarArchivo()">Cifrar</button>
+    <button onclick="descifrarArchivo()">Descifrar</button>
+
+    <h2>Mensaje cifrado:</h2>
+    <textarea id="mensajeCifrado" readonly></textarea>
+
+    <script src="inicio.js"></script>
+</body>
+</html>

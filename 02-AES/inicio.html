@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sistema de Cifrado y Descifrado AES</title>
+  <link rel="stylesheet" type="text/css" href="inicio.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Sistema AES</h1>
+<br>
+    <div class="form">
+      <label for="message">Mensaje:</label>
+      <input type="text" id="message" />
+      <br>
+      <br>
+      <label for="key">Clave:</label>
+      <input type="text" id="key" />
+      <br>
+      <br>
+      <label for="encryptionType">Tipo de cifrado:</label>
+      <select id="encryptionType">
+        <option value="128">AES-128 (16 caracteres)</option>
+        <option value="192">AES-192 (24 caracteres)</option>
+        <option value="256">AES-256 (32 caracteres)</option>
+      </select>
+<br>
+<br>
+      <div class="buttons">
+        <button onclick="encrypt()">Cifrar</button>
+        <button onclick="decrypt()">Descifrar</button>
+      </div>
+
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+  <script src="inicio.js"></script>
+</body>
+</html>
