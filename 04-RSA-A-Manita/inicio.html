@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Algoritmo RSA</title>
+    <link rel="stylesheet" type="text/css" href="inicio.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Algoritmo RSA</h1>
+        
+        <label for="prime1">Número primo 1:</label>
+        <input type="text" id="prime1" />
+
+        <label for="prime2">Número primo 2:</label>
+        <input type="text" id="prime2" />
+
+        <button onclick="calculate()">Calcular</button>
+
+        <div id="results">
+            <h2>Resultados:</h2>
+            <p id="fhi"></p>
+            <p id="n"></p>
+            <p id="e"></p>
+            <p id="d"></p>
+        </div>
+
+        <label for="message">Mensaje:</label>
+        <input type="text" id="message" />
+
+        <button onclick="encrypt()">Cifrar</button>
+        <button onclick="decrypt()">Descifrar</button>
+
+        <div id="ciphertext">
+            <h2>Texto cifrado/descifrado:</h2>
+            <p id="output"></p>
+        </div>
+    </div>
+
+    <script src="inicio.js"></script>
+</body>
+</html>
